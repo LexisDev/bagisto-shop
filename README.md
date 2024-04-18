@@ -1,1 +1,0 @@
-# bagisto-shop
