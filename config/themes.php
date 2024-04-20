@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'default' => 'default',
+    'default' => 'design',
 
     'themes' => [
         'default' => [
@@ -17,10 +17,17 @@ return [
         //     'parent' => 'default'
         // ]
 
-        'velocity' => [
-            'views_path' => 'resources/themes/velocity/views',
-            'assets_path' => 'public/themes/velocity/assets',
-            'name' => 'Velocity',
+        // 'velocity' => [
+        //     'views_path' => 'resources/themes/velocity/views',
+        //     'assets_path' => 'public/themes/velocity/assets',
+        //     'name' => 'Velocity',
+        //     'parent' => 'default'
+        // ],
+
+        'design' => [
+            'views_path' => 'resources/themes/design/views',
+            'assets_path' => 'public/themes/design/assets',
+            'name' => 'Design',
             'parent' => 'default'
         ],
     ],
