@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'default' => 'design',
+    'default' => 'navi',
 
     'themes' => [
         'default' => [
@@ -24,10 +24,10 @@ return [
         //     'parent' => 'default'
         // ],
 
-        'design' => [
-            'views_path' => 'resources/themes/design/views',
-            'assets_path' => 'public/themes/design/assets',
-            'name' => 'Design',
+        'navi' => [
+            'views_path' => 'resources/themes/navi/views',
+            'assets_path' => 'public/themes/navi/assets',
+            'name' => 'Navi',
             'parent' => 'default'
         ],
     ],
