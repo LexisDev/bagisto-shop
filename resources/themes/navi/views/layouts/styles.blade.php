@@ -8,7 +8,7 @@
 @endif
 
 {{-- mix versioned compiled file --}}
-<link rel="stylesheet" href="{{ asset(mix('/css/velocity.css', 'themes/velocity/assets')) }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset('/themes/navi/assets/css/velocity.css', 'themes/navi/assets') }}" />
 
 <!-- NEW TEMPLATE -->
 <link rel="stylesheet" type="text/css" href="{{ asset('/themes/navi/assets/css/navi/plugins/swiper.min.css', 'themes/navi/assets') }}" />

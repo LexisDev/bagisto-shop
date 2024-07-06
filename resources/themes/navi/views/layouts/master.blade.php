@@ -215,7 +215,7 @@
 
       <div class="logo">
         <a href="./index.html">
-          NAVI LOGO <!--<img src="themes/navi/assets/images/template/logo.png" alt="Uomo" class="logo__image d-block">-->
+          <img src="themes/navi/assets/images/template/logo-navi.png" alt="Uomo" class="logo__image d-block">
         </a>
       </div><!-- /.logo -->
 
@@ -440,12 +440,6 @@
   <header id="header" class="header header-fullwidth header-transparent-bg">
     <div class="container">
       <div class="header-desk header-desk_type_1">
-        <div class="logo">
-          <a href="./index.html">
-          NAVI LOGO <!--<img src="themes/navi/assets/images/template/logo.png" alt="Uomo" class="logo__image d-block">-->
-          </a>
-        </div><!-- /.logo -->
-
         <nav class="navigation">
           <ul class="navigation__list list-unstyled d-flex">
             <li class="navigation__item">
@@ -593,6 +587,12 @@
             </li>
           </ul><!-- /.navigation__list -->
         </nav><!-- /.navigation -->
+
+        <div class="logo">
+          <a href="./index.html">
+            <img src="themes/navi/assets/images/template/logo-navi.png" alt="Uomo" class="logo__image d-block">
+          </a>
+        </div><!-- /.logo -->
 
         <div class="header-tools d-flex align-items-center">
           <div class="header-tools__item hover-container">
@@ -1465,7 +1465,7 @@
         <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
           <div class="logo">
             <a href="./index.html">
-            NAVI LOGO <!--<img src="themes/navi/assets/images/template/logo.png" alt="Uomo" class="logo__image d-block">-->
+              <img src="themes/navi/assets/images/template/logo-navi.png" alt="Uomo" class="logo__image d-block">
             </a>
           </div><!-- /.logo -->
           <p class="footer-address">1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
