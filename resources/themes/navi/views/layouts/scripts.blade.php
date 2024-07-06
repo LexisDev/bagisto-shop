@@ -1,8 +1,13 @@
-<script type="text/javascript" src="{{ asset(mix('/js/manifest.js', 'themes/velocity/assets')) }}"></script>
-
-<script type="text/javascript" src="{{ asset(mix('/js/velocity-core.js', 'themes/velocity/assets')) }}"></script>
-
-<script type="text/javascript" src="{{ asset(mix('/js/components.js', 'themes/velocity/assets')) }}"></script>
+<!-- NEW TEMPLATE -->
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/plugins/jquery.min.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/plugins/bootstrap.bundle.min.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/plugins/bootstrap-slider.min.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/plugins/swiper.min.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/plugins/countdown.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/theme.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/details-disclosure.js', 'themes/navi/assets') }}"></script>
+<script type="text/javascript" src="{{ asset('/themes/navi/assets/js/navi/share.js', 'themes/navi/assets') }}"></script>
+<!-- NEW TEMPLATE -->
 
 <script type="text/javascript">
     (() => {
