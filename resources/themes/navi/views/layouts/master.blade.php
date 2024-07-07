@@ -53,6 +53,7 @@
         {!! view_render_event('bagisto.shop.layout.body.before') !!}
 
         {{-- main app --}}
+
 <!-- TEMPLATE -->
 <svg class="d-none">
     <symbol id="icon_nav" viewBox="0 0 25 18">
@@ -436,6 +437,10 @@
 
   <!-- Header Type 2 -->
   <header id="header" class="header header-fullwidth header-transparent-bg">
+    <!-- TEST-->
+    {{-- top nav which contains currency, locale and login header --}}
+      @include('shop::layouts.top-nav.index')
+    <!-- TEST-->
     <div class="container">
       <div class="header-desk header-desk_type_1">
         <nav class="navigation">
